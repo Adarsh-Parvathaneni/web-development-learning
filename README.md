@@ -27,7 +27,7 @@ JavaScript/
 ## Progress
 
 - [x] Repository Setup
-- [ ] HTML
+- [x] HTML
 - [ ] CSS
 - [ ] JavaScript
 
