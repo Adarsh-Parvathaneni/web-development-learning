@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Pane</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; background: #fff; }
+        table { width: 100%; max-width: 450px; margin: 10px auto; border-collapse: collapse; }
+        td { padding: 8px; }
+        input[type="text"], input[type="email"], input[type="password"] { width: 100%; padding: 8px; box-sizing: border-box; }
+        button { background: #27ae60; color: white; border: none; padding: 10px 20px; cursor: pointer; width: 100%; }
+        button:hover { background: #219a52; }
+        h3 { text-align: center; color: #27ae60; }
+    </style>
+</head>
+<body>
+    <h3>New Account Registration</h3
+    <form action="#" method="POST" onsubmit="event.preventDefault(); alert('Registration details submitted successfully!');">
+        <table>
+            <tr>
+                <td><label for="fullname">Full Name:</label></td>
+                <td><input type="text" id="fullname" name="fullname" required></td>
+            </tr>
+            <tr>
+                <td><label for="uemail">Email Address:</label></td>
+                <td><input type="email" id="uemail" name="email" required></td>
+            </tr>
+            <tr>
+                <td><label for="newpass">Create Password:</label></td>
+                <td><input type="password" id="newpass" name="newpassword" required></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center; padding-top: 15px;">
+                    <button type="submit">Register Account</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
+
