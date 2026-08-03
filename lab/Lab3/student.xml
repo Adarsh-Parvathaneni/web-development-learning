@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE students SYSTEM "student.dtd">
+<students>
+    <student>
+        <id>101</id>
+        <name>Rahul</name>
+        <branch>Computer Science</branch>
+        <semester>5</semester>
+        <email>rahul@gmail.com</email>
+    </student>
+    <student>
+        <id>102</id>
+        <name>Priya</name>
+        <branch>ECE</branch>
+        <semester>3</semester>
+        <email>priya@gmail.com</email>
+    </student>
+        <student>
+        <id>103</id>
+        <name>Jasmitha</name>
+        <branch>CSE</branch>
+        <semester>3</semester>
+        <email>jasmitha@gmail.com</email>
+    </student>
+</students>
